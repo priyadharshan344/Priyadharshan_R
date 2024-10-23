@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - About & Projects</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for the About section */
+        .about-section {
+            text-align: center;
+            padding: 60px 0;
+        }
+        .about-section h2 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+        .about-section img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #333;
+            margin-bottom: 30px;
+        }
+        .about-section .content {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Custom styles for the Projects section */
+        .projects-section {
+            text-align: center;
+            padding: 60px 0;
+        }
+        .projects-section h2 {
+            font-size: 3rem;
+            margin-bottom: 40px;
+        }
+        .card {
+            margin: 20px 0;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+<style>
+  /* General section styling */
+  #contact {
+    background-color: #343a40; /* Dark background */
+  }
+
+  /* Contact information styling */
+  #contact .row div {
+    font-size: 1.2rem; /* Increase font size */
+  }
+
+  /* Circular social media buttons */
+  .btn-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Circular shape */
+    background-color: #e83e8c; /* Pink background */
+    color: white;
+    padding: 10px;
+  }
+
+  /* Tooltip styling */
+  .btn-circle:hover {
+    background-color: #ff4da6; /* Lighter pink on hover */
+  }
+
+  /* Adjust icon size inside circular buttons */
+  .btn-circle img {
+    width: 30px;
+    height: 30px; /* Uniform icon size */
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    #contact .row div {
+      margin-bottom: 10px;
+    }
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About</h2>
+            <img src="images/about/Picture1.jpg" alt="Profile Image">
+            <div class="content">
+                <p>My name is Priyadharshan, and I have 3 years of overall experience in IT, with 2 years of relevant experience in Data Analytics and 1 year of experience in Mainframe batch data processing.</p>
+                <p>Proficient in data visualization, reporting, and dashboard development, with expertise in SQL, Advanced Excel, and Power BI. Strong analytical and problem-solving skills, with a proactive and continuous learning mindset.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <!-- Project 1 Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/Coffee.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1: Food & Beverage </h5>
+                            <p class="card-text">The retail analysis of coffee shop sales provides a comprehensive view of various performance metrics, customer behaviors, and trends. It covers the following key aspects:
+                                Sales, Orders, and Quantity Analysis, Weekday vs. Weekend Sales, Sales by Location, Product, Day and Hour.               Tools used: Power BI, SQL Scripts and Queries, Excel</p>
+                            <a href="https://github.com/priyadharshan344/Retail-analysis/tree/main" class="btn btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/Netflix EDA.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2: Media Exploratory Data Analysis </h5>
+                            <p class="card-text">This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following Source code provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.</p>
+                            <a href="https://github.com/priyadharshan344/SQL_Neyflix_EDA" class="btn btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/Blink.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3: Grocery store analysis- (E-commerce)</h5>
+                            <p class="card-text">This project analyzes online grocery store sales data using Power BI Desktop, with Power Query for data cleansing and DAX for calculations. Interactive visualizations were created to explore key metrics like total sales, average sales per outlet, number of items sold, and product ratings.
+The analysis also examines how factors such as fat content, outlet size, and location impact sales performance.</p>
+                            <a href="https://github.com/priyadharshan344/Grocery-store-analysis-E-commerce-" class="btn btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+<!-- Project 4 Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/Election.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4: Election result analysis-(Political)</h5>
+                            <p class="card-text">This project analyzed election data using Power BI with Power Query for data cleansing and data modeling to create an interactive dashboard. Key metrics include total seats, party-wise results, winning candidates and margins, EVM vs Postal votes, and total seats won. I also performed EDA using SQL to generate and validate the same insights, ensuring a thorough analysis of election outcomes.</p>
+                            <a href="https://github.com/priyadharshan344/Election-result-analysis-Political-" class="btn btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+<!-- Project 5 Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/HR Analysis.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 5: Layoff analysis- Human Resources (HR) </h5>
+                            <p class="card-text">This project analyzes layoffs across multinational companies using SQL for data cleaning, normalization, and modeling. Key metrics include the percentage of big layoffs, companies with the highest layoffs, total and maximum layoffs by location, and year-over-year layoff trends. The analysis provides insights into layoff patterns and trends in the technology market.</p>
+                            <a href="https://github.com/priyadharshan344/Layoff_analysis" class="btn btn-secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Skills</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+      <!-- Skill 1 -->
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="images/skills/Excel logo.jpg" class="card-img-top mx-auto" alt="Advanced Excel" style="width: 150px;">
+          <div class="card-body">
+            <h5 class="card-title">Advanced Excel</h5>
+          </div>
+          <div class="card-footer">
+            <a href="https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb" class="btn btn-primary">Link to course or bootcamp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 2 -->
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="images/skills/PBI Logo.jpg" class="card-img-top mx-auto" alt="Data Visualization" style="width: 150px;">
+          <div class="card-body">
+            <h5 class="card-title">Data Visualization</h5>
+          </div>
+          <div class="card-footer">
+            <a href="https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/1-introduction" class="btn btn-primary">Link to course or bootcamp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 3 -->
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="images/skills/SQL.png" class="card-img-top mx-auto" alt="SQL" style="width: 150px;">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.w3schools.com/sql/" class="btn btn-primary">Link to course or bootcamp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 4 -->
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="images/skills/Story telling.jpg" class="card-img-top mx-auto" alt="Data Storytelling" style="width: 150px;">
+          <div class="card-body">
+            <h5 class="card-title">Data Storytelling</h5>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.thoughtspot.com/data-trends/best-practices/data-storytelling" class="btn btn-primary">Link to course or bootcamp</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact" class="py-5 text-white" style="background-color: #343a40;">
+  <div class="container text-center">
+    <!-- Section Heading -->
+    <h2 class="mb-4">Contact Me</h2>
+
+    <!-- Contact Information -->
+    <div class="row justify-content-center mb-4">
+      <!-- Email -->
+      <div class="col-12 col-md-5 d-flex align-items-center justify-content-center mb-3 mb-md-0">
+        <i class="bi bi-envelope-fill" style="font-size: 1.5rem; margin-right: 10px;"></i>
+        <span>priyadharshanramesh@gmail.com</span>
+      </div>
+      <!-- Phone -->
+      <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
+        <i class="bi bi-telephone-fill" style="font-size: 1.5rem; margin-right: 10px;"></i>
+        <span>6379451566</span>
+      </div>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="d-flex justify-content-center">
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/priyadharshan-r-02679a1a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn btn-circle btn-black mx-2" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn">
+        <img src="icons/Ln.png" alt="LinkedIn" class="img-fluid">
+      </a>
+      <!-- Hacker rank -->
+      <a href="https://www.hackerrank.com/profile/priyadharshanra2" class="btn btn-circle btn-pink mx-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Hacker rank">
+        <img src="icons/HRnk2.png" alt="Hacker rank" class="img-fluid">
+      </a>
+      <!-- GitHub -->
+      <a href="https://github.com/priyadharshan344?tab=repositories" class="btn btn-circle btn-pink mx-2" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+        <img src="icons/github.png" alt="GitHub" class="img-fluid">
+      </a>
+      <!-- Twitter -->
+      <a href="#" class="btn btn-circle btn-pink mx-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+        <img src="icons/Twitter2.png" alt="Twitter" class="img-fluid">
+      </a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
